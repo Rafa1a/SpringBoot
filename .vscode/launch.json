@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringVscodeApplication<spring-vscode>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.apirest.springvscode.SpringVscodeApplication",
+            "projectName": "spring-vscode",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
