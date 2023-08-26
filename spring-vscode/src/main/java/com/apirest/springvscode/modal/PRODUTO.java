@@ -8,6 +8,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class PRODUTO {
+    
     @Id
     @GeneratedValue
     private int COD_PRODUTO;

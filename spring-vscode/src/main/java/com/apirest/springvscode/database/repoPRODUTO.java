@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.apirest.springvscode.modal.PRODUTO;
 
-public interface repositoriodata extends JpaRepository<PRODUTO,Integer> {
+public interface repoPRODUTO extends JpaRepository<PRODUTO,Integer> {
     
 }
