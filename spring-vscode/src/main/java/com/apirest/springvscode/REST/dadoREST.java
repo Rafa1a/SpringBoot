@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.apirest.springvscode.database.repoCLIENTE;
+//import com.apirest.springvscode.database.repoCLIENTE;
 import com.apirest.springvscode.database.repoENDERECO;
-import com.apirest.springvscode.database.repoPRODUTO;
+//import com.apirest.springvscode.database.repoPRODUTO;
 import com.apirest.springvscode.modal.CLIENTE;
 import com.apirest.springvscode.modal.ENDERECO;
 import com.apirest.springvscode.modal.PRODUTO;
@@ -28,10 +28,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @RestController
 @RequestMapping("/classall")
 public class dadoREST {
-    @Autowired
+    /*@Autowired
     private repoPRODUTO repoPRODUTO;
     @Autowired
-    private repoCLIENTE repoCLIENTE;
+    private repoCLIENTE repoCLIENTE;*/
     @Autowired
     private repoENDERECO repoENDERECO;
     
