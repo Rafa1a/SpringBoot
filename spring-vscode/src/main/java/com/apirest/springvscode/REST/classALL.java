@@ -8,6 +8,7 @@ public class classALL {
     private float preco;
     private String cep;
     private String nomecliente;
+    
     public int getCod() {
         return cod;
     }
